@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(/img/achtergrond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+h2 {
+    color: cornflowerblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    color: cadetblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+
+.knopjes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.eten {
+    background-color:lightpink;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color:aliceblue;
+    font-size: medium;
+    font-weight:bold;
+}
+
+.aaien {
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px ;
+    font-weight: bold;
+    font-size: medium;
+    color: aliceblue;
+}
+
+.spelen {
+    background-color:coral;
+    padding: 10px;
+    border: none;
+    border-radius: 5px ;
+    font-weight: bold;
+    font-size: medium;
+    color:aliceblue;
+}
+
+.wassen {
+    background-color:#77DD77;
+    padding: 10px;
+    border: none;
+    border-radius: 5px ;
+    font-weight: bold;
+    font-size: medium;
+    color:aliceblue;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+.afbeelding {
+    margin-top: 250px;
+}
