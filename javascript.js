@@ -41,10 +41,10 @@ function aaien() {
     } 
     else {
         hond.src = "img/confettihond.gif"; // bronnen gifje: confetti = https://i.pinimg.com/originals/e7/b9/f7/e7b9f765e3e589e4d445ec3f7069106a.gif en hond = https://i.pinimg.com/originals/6d/cf/4c/6dcf4c5b0dba1988fc02d0d5ea8a54fa.gif
-        let audio = new Audio ("applaus.mp3"); // bron geluid: https://pixabay.com/nl/sound-effects/search/juichen/
+        const audio = new Audio ("applaus.mp3"); // bron geluid: https://pixabay.com/nl/sound-effects/search/juichen/
         audio.play();
 
-        let voltooidMessage = ("Level voltooid, je hond is helemaal blij met jou");
+        const voltooidMessage = ("Level voltooid, je hond is helemaal blij met jou");
         document.getElementById("voltooid").textContent = voltooidMessage;
 
     }
@@ -60,10 +60,10 @@ function eten() {
     }
     else {
         hond.src = "img/confettihond.gif"; // bronnen gifje: confetti = https://i.pinimg.com/originals/e7/b9/f7/e7b9f765e3e589e4d445ec3f7069106a.gif en hond = https://i.pinimg.com/originals/6d/cf/4c/6dcf4c5b0dba1988fc02d0d5ea8a54fa.gif
-        let audio = new Audio ("applaus.mp3"); // bron geluid: https://pixabay.com/nl/sound-effects/search/juichen/
+        const audio = new Audio ("applaus.mp3"); // bron geluid: https://pixabay.com/nl/sound-effects/search/juichen/
         audio.play();
 
-        let voltooidMessage = ("Level voltooid, je hond is helemaal blij met jou");
+        const voltooidMessage = ("Level voltooid, je hond is helemaal blij met jou");
         document.getElementById("voltooid").textContent = voltooidMessage;
     }
 }
@@ -78,10 +78,10 @@ function spelen() {
     }
     else {
         hond.src = "img/confettihond.gif"; // bronnen gifje: confetti = https://i.pinimg.com/originals/e7/b9/f7/e7b9f765e3e589e4d445ec3f7069106a.gif en hond = https://i.pinimg.com/originals/6d/cf/4c/6dcf4c5b0dba1988fc02d0d5ea8a54fa.gif
-        let audio = new Audio ("applaus.mp3"); // bron geluid: https://pixabay.com/nl/sound-effects/search/juichen/
+        const audio = new Audio ("applaus.mp3"); // bron geluid: https://pixabay.com/nl/sound-effects/search/juichen/
         audio.play();
 
-        let voltooidMessage = ("Level voltooid, je hond is helemaal blij met jou");
+        const voltooidMessage = ("Level voltooid, je hond is helemaal blij met jou");
         document.getElementById("voltooid").textContent = voltooidMessage;
     }
 }
@@ -97,10 +97,10 @@ function wassen() {
     }
     else {
         hond.src = "img/confettihond.gif"; // bronnen gifje: confetti = https://i.pinimg.com/originals/e7/b9/f7/e7b9f765e3e589e4d445ec3f7069106a.gif en hond = https://i.pinimg.com/originals/6d/cf/4c/6dcf4c5b0dba1988fc02d0d5ea8a54fa.gif
-        let audio = new Audio ("applaus.mp3"); // bron geluid: https://pixabay.com/nl/sound-effects/search/juichen/
+        const audio = new Audio ("applaus.mp3"); // bron geluid: https://pixabay.com/nl/sound-effects/search/juichen/
         audio.play();
         
-        let voltooidMessage = ("Level voltooid, je hond is helemaal blij met jou");
+        const voltooidMessage = ("Level voltooid, je hond is helemaal blij met jou");
         document.getElementById("voltooid").textContent = voltooidMessage;
     }
 }
@@ -109,12 +109,12 @@ function wassen() {
 //bron code geluid: https://youtu.be/3xlws5og44U?feature=shared
 
 function muziek() {
-    let audio = new Audio("eten.mp3"); // bron geluid: https://pixabay.com/sound-effects/search/munch/
+    const audio = new Audio("eten.mp3"); // bron geluid: https://pixabay.com/sound-effects/search/munch/
     audio.play();
 }
 
 function bubbels() {
-    let audio = new Audio("schoon.mp3"); // bron geluid: https://pixabay.com/sound-effects/search/bathtub%20bubbles/
+    const audio = new Audio("schoon.mp3"); // bron geluid: https://pixabay.com/sound-effects/search/bathtub%20bubbles/
     audio.play();
 }
 
@@ -129,7 +129,7 @@ function hideHint(){
 
 
 function updateBlijheid() {
-    let blijheidMessage = "Blijheid:" + blijheid + "%"; 
+    const blijheidMessage = "Blijheid:" + blijheid + "%"; 
     document.getElementById("blijheidstatus").textContent = blijheidMessage;
     
 }
