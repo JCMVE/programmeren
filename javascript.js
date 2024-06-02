@@ -27,7 +27,7 @@ let blijheid = 0;
 
 // -------------------- ALLE FUNCTIES --------------------
 
-// met hulp van voorbeeld Lisette, deze functie geeft een naam aan mijn Tamagotchi. 
+// met hulp van voorbeeld Lisette, deze functie zorgt ervoor dat je een naam kan invullen en dus je Tamagotchi een naam kan geven. 
 function naamGeven () {
     naam = naamInvoer.value;
     h2.textContent = naam;
