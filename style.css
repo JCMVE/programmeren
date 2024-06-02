@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(img/achtergrond.jpg);
+    background-image: url(img/achtergrond.jpg); /* bron: https://thumbs.dreamstime.com/b/print-135904162.jpg */
     background-size: cover;
     background-repeat: no-repeat;   
 }
@@ -25,7 +25,9 @@ p {
     font-weight: bold;
 }
 
-
+button {
+    cursor: pointer;
+}
 
 .knopjes {
     display: flex;
@@ -73,11 +75,6 @@ p {
     font-weight: bold;
     font-size: medium;
     color:aliceblue;
-}
-
-
-button {
-    cursor: pointer;
 }
 
 .afbeelding {
