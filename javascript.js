@@ -1,13 +1,13 @@
 
 /**
- * NAME: 
- * AUTHOR: 
- * DESCRIPTION: 
+ * NAME: Tamagotchi
+ * AUTHOR: Julia
+ * DESCRIPTION: hondenspel, waarmee je de hond verschillende activiteiten kan laten doen. Ook is er leuke muziek toegevoegd :)
  */
 
 // -------------------- CONSTANTEN --------------------
  
-const nameInput = document.getElementById("nameInput");     
+const naamInvoer = document.getElementById("nameInput");     
 const button = document.getElementById("button");
 const h2 = document.querySelector("h2");
 const hond = document.querySelector("#hond_1")
@@ -22,13 +22,15 @@ const hintP = document.querySelector("#buttonWassen");
 
 
 // -------------------- LET VARIABELEN --------------------
-let UserName
+let naam
 let blijheid = 0;
 
 // -------------------- ALLE FUNCTIES --------------------
+
+// met hulp van voorbeeld Lisette, deze functie geeft een naam aan mijn Tamagotchi. 
 function logInput () {
-    UserName = nameInput.value;
-    h2.textContent = UserName;
+    naam = naamInvoer.value;
+    h2.textContent = naam;
 }
 
 function aaien() {
